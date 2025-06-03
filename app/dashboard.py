@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Fashion Retail Sales Monitor ")
 
-DATA_PATH = "S:/Sri Eshwar Acad/I - II/Python/fashion_sales_monitor/data/online_retail_II.xlsx"
+DATA_PATH = "S:/Sri Eshwar Acad/I - II/Python/fashion_sales_monitor/data/sample.xlsx"
 
 @st.cache_data
 def load_data(path):
